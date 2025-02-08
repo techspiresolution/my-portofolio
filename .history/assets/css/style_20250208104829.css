@@ -56,19 +56,7 @@
 
   /* solid */
 
-  --jet: hsl(0, 0%, 22%);
-  --onyx: hsl(240, 1%, 17%);
-  --eerie-black-1: hsl(240, 2%, 13%);
-  --eerie-black-2: hsl(240, 2%, 12%);
-  --smoky-black: hsl(0, 0%, 7%);
-  --white-1: hsl(0, 0%, 100%);
-  --white-2: hsl(0, 0%, 98%);
-  --orange-yellow-crayola: hsl(45, 100%, 72%);
-  --vegas-gold: hsl(45, 54%, 58%);
-  --light-gray: hsl(0, 0%, 84%);
-  --light-gray-70: hsla(0, 0%, 84%, 0.7);
-  --bittersweet-shimmer: hsl(0, 43%, 51%);
-
+ 
   /**
    * typography
    */
@@ -872,84 +860,8 @@ main {
 
 
 /*-----------------------------------*\
-  #Services
+  #PORTFOLIO
 \*-----------------------------------*/
-
-
-
-<style>
-  .project-item {
-    position: relative;
-    overflow: hidden;
-    border: 1px solid #ddd;
-    border-radius: 8px;
-    transition: transform 0.3s ease;
-  }
-
-  .project-item:hover {
-    transform: scale(1.05);
-  }
-
-  .project-img img {
-    width: 100%;
-    height: auto;
-    display: block;
-  }
-
-  .hover-text {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: rgba(0, 0, 0, 0.7);
-    color: #fff;
-    opacity: 0;
-    transition: opacity 0.3s ease;
-    padding: 20px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    border-radius: 8px;
-  }
-
-  .hover-text h3 {
-    margin: 10px 0;
-    font-size: 18px;
-    color: #ffcc00;
-  }
-
-  .hover-text p {
-    font-size: 14px;
-    margin: 5px 0;
-  }
-
-  .project-item:hover .hover-text {
-    opacity: 1;
-  }
-</style>
-
-<ul class="project-list">
-  <li class="project-item active" data-filter-item data-category="ethical hacking">
-    <a href="#">
-
-      <figure class="project-img">
-        <img src="./assets/images/instagram.png" alt="Instagram Account Recovery" loading="lazy">
-      </figure>
-
-      <div class="hover-text">
-        <h3>Instagram Account Recovery</h3>
-        <p>🔐 Instagram Account Recovery Service</p>
-        <p>💰 Fee: ₹3,000 | ⏳ Duration: 24 to 48 Hours</p>
-        <p>💬 24/7 Support Available | 💯 100% Refund Guarantee</p>
-      </div>
-
-    </a>
-  </li>
-</ul>
-
 
 .filter-list { display: none; }
 
@@ -1107,7 +1019,7 @@ main {
 
 
 /*-----------------------------------*\
-  #blog
+  #BLOG
 \*-----------------------------------*/
 
 .blog-posts { margin-bottom: 10px; }
@@ -1829,7 +1741,6 @@ textarea.form-input::-webkit-resizer { display: none; }
    */
 
   .blog-banner-box { height: 230px; }
-  .project-list { grid-template-columns: repeat(3, 1fr); }
 
 }
 

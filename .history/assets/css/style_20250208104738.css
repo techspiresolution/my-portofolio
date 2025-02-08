@@ -14,7 +14,9 @@
 /*-----------------------------------*\
   #CUSTOM PROPERTY
 \*-----------------------------------*/
-
+body{
+  color: blueviolet;
+}
 :root {
 
   /**
@@ -872,12 +874,8 @@ main {
 
 
 /*-----------------------------------*\
-  #Services
+  #PORTFOLIO
 \*-----------------------------------*/
-
-
-
-
 
 .filter-list { display: none; }
 
@@ -1035,7 +1033,7 @@ main {
 
 
 /*-----------------------------------*\
-  #blog
+  #BLOG
 \*-----------------------------------*/
 
 .blog-posts { margin-bottom: 10px; }
@@ -1757,7 +1755,6 @@ textarea.form-input::-webkit-resizer { display: none; }
    */
 
   .blog-banner-box { height: 230px; }
-  .project-list { grid-template-columns: repeat(3, 1fr); }
 
 }
 
